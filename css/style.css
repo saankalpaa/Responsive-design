@@ -198,8 +198,13 @@ footer{
     line-height: 50px;
   }
 
-  .header-content h1, .intro-content h1, .contact-section h1 {
+  .intro-content h1, .contact-section h1 {
     font-size: 35px;
+  }
+
+  .header-content h1{
+    font-size: 35px;
+    margin-top: -7vh;
   }
 
   .header-content h2 span {
@@ -213,8 +218,9 @@ footer{
   }
 
   .intro {
-    padding-top: 15vh;
+    padding-top: 7vh;
     padding-bottom: 10vh;
+    height: 122vh;
   }
 
   .intro-text p {
